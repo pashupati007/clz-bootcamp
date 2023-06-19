@@ -24,20 +24,20 @@
         </div>
       </div>
 
-      <div class="hand">
+      <div id="hand" class="hand">
         <div class="rock"><img src="/assets/Rock.png" alt="rock" onclick="human_choice('rock')"></div>
         <div class="paper"><img src="/assets/Paper.png" alt="paper" onclick="human_choice('paper')"></div>
         <div class="scissors"><img src="/assets/Scissors.png" alt="scissors" onclick="human_choice('scissors')"></div>
       </div>
 
-      <div class="result_board">
+      <div id="result_board" class="result_board">
         <div class="human_choice">
           <p>Your Picked</p>
           <img src="./assets/Rock.png" id="human_choice" alt="human choice">
         </div>
         <div class="result">
-          <p>You Loose</p>
-          <button class="btn">Play Again</button>
+          <p id="decesion">You Loose</p>
+          <button class="btn" onclick="reset()">Play Again</button>
         </div>
         <div class="computer_choice">
           <p>Computer Choice</p>
